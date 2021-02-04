@@ -1,0 +1,13 @@
+@media (max-width: 480px) {
+  // background-color: lightblue;
+  .liImage {
+    height: auto;
+    max-height: 40vh;
+    
+  }
+  .imgOnSite {
+    max-width: 80vw;
+    min-width: 0;
+    padding: 0;
+  }
+}

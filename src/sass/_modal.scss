@@ -1,0 +1,57 @@
+.modal {
+  
+  position: fixed;
+  width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  .shadow {
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+  }
+  .box {
+    width: 90vw;
+    height: 90vh;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+
+    //teraz dodale experymenty
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+    h5,
+    i {
+      color: rgb(88, 88, 88);
+    }
+    h4,
+    h5 {
+      font-weight: 400;
+    }
+    .icon {
+      border-radius: 50%;
+      width: 3rem;
+    }
+
+    .autor {
+      display: flex;
+      align-items: center;
+      div {
+        margin-left: 1rem;
+      }
+    }
+    .modalPhoto {
+      margin: 0 auto;
+      max-height: 85%;
+
+    }
+
+  }
+}
