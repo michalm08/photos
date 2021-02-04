@@ -26,7 +26,7 @@ const Modal = ({ setModal, photo }) => {
           alt={photo.alt_description}
         />
         <h4>
-          <i className='fas fa-map-marker-alt'></i> {photo.user.location ? photo.user.location : <>Nowhere</> }
+          <i className='fas fa-map-marker-alt'></i> {photo.user.location ? photo.user.location : <h4>Nowhere</h4> }
         </h4>
       </div>
     </div>

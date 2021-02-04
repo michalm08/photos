@@ -50,10 +50,6 @@
     }
   }
 
-  //   .photos {
-  //     // background-color: rgb(250, 250, 250);
-  //   }
-
   .ulImage {
     display: flex;
     flex-wrap: wrap;
@@ -77,18 +73,15 @@
       cursor: pointer;
     }
     .taggs {
-      //   background-color: rgb(160, 160, 160);
       position: relative;
       top: -1.5rem;
-      //   border: 1px solid red;
+
       ul {
         display: flex;
         list-style: none;
-
         width: 100%;
-
         overflow: hidden;
-        // justify-content: space-between;
+
         li {
           margin-left: 0.5rem;
           color: #808080;
@@ -99,10 +92,7 @@
         }
       }
     }
-    // h4{
-    //     position: relative;
-    //     top: -1.5rem;
-    // }
+    
     .ulTags {
       display: flex;
       list-style: none;

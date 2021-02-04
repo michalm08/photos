@@ -4,9 +4,7 @@ import { items } from '../data/items';
 
 const Search = ({ setPhotoName, inPhoto, photoName }) => {
   const [list, setList] = useState([]);
-  // const constList2 = ['alabama', 'poland', 'alegoria'];
   const constList = items;
-
   const [redirect, setRedirect] = useState(false);
   const [word, setWord] = useState('');
 
@@ -52,7 +50,7 @@ const Search = ({ setPhotoName, inPhoto, photoName }) => {
         <input
           id='textInput'
           type='text'
-          placeholder='Search free hish resolution photos'
+          placeholder='Search free high-resolution photos'
           value={word}
           onChange={change}
           autoComplete='off'
@@ -64,7 +62,7 @@ const Search = ({ setPhotoName, inPhoto, photoName }) => {
         <ul>
           {list.length === 0 && word.length >= 3 ? (
             <div className='noClickElem'>
-              <li>Nic</li>
+              <li>We can't find that word...</li>
             </div>
           ) : (
             list.map((item) => (

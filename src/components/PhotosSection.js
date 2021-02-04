@@ -3,7 +3,6 @@ import axios from 'axios';
 import Image from './Image';
 // import dotenv from 'dotenv';
 // dotenv.config();
-// require('dotenv').config();
 
 const PhotosSection = ({ photoName, setPhotoName }) => {
   const [photos, setPhotos] = useState([]);
@@ -17,7 +16,6 @@ const PhotosSection = ({ photoName, setPhotoName }) => {
   const loadPhoto = async (photoName) => {
     let URL = `https://api.unsplash.com/search/photos?query=${photoName}&client_id=${process.env.REACT_APP_KEY}`;
 
-    // let res;
     try {
       res = await axios.get(URL);
       setPhotos(res.data.results);

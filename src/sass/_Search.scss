@@ -40,11 +40,10 @@ input::placeholder {
     margin: 5px 0;
     max-height: 200px;
     overflow: scroll;
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
       display: none;
     }
   }
-  
 }
 
 .clickElem {
@@ -53,10 +52,7 @@ input::placeholder {
     color: black;
     cursor: pointer;
     text-decoration: none;
-    // background-color: rgb(124, 124, 124);
-    // box-shadow: 2px 0px 5px black;
     border-radius: 5px;
-
     padding: 1rem 2rem;
     transition: background-color 0.3s;
     &:hover {
@@ -72,17 +68,9 @@ input::placeholder {
 .noClickElem {
   li {
     list-style-type: none;
-    color: rgb(129, 129, 129);
-
+    color: rgb(175, 175, 175);
     text-decoration: none;
-    // background-color: rgb(124, 124, 124);
-    // box-shadow: 2px 0px 5px black;
     border-radius: 5px;
-
     padding: 1rem 2rem;
-  }
-  a {
-    text-decoration: none;
-    color: black;
   }
 }
